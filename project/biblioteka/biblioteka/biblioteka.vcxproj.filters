@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\include">
+      <UniqueIdentifier>{81998f75-446a-40d4-907e-d376445c9803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\include\Library">
+      <UniqueIdentifier>{31b5a7ba-ccbc-4704-910e-e6ccea5f63f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\include\Book">
+      <UniqueIdentifier>{32be5fea-9f07-4331-95bd-504f6113b127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\scr">
+      <UniqueIdentifier>{31b9e90e-8270-4e54-9532-df823340ce51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\scr\Library">
+      <UniqueIdentifier>{89268f24-b1a3-4852-b86e-fe8bb24fd998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\scr\Book">
+      <UniqueIdentifier>{4e8df693-29eb-4d1b-b1df-816dc456d4ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Library.h">
+      <Filter>Pliki źródłowe\include\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.h">
+      <Filter>Pliki źródłowe\include\Book</Filter>
+    </ClCompile>
+    <ClCompile Include="FantasyBook.h">
+      <Filter>Pliki źródłowe\include\Book</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>Pliki źródłowe\scr\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Pliki źródłowe\scr\Book</Filter>
+    </ClCompile>
+    <ClCompile Include="FantasyBook.cpp">
+      <Filter>Pliki źródłowe\scr\Book</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe\scr</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
